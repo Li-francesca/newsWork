@@ -1,0 +1,82 @@
+  *{
+	margin: 0;
+	padding: 0;
+}
+ body{
+ 	 background-color: lightblue
+	width:100%;
+	height:100%;
+ }
+   #container{
+	width: 1000px;
+	 height:1000px;
+	margin: auto;
+	margin-top: 40px;
+	border: 1px solid gainsboro;
+	
+}
+#header{
+	width: 1000px;
+	height: 65px;
+	background-color: darkcyan;
+}
+#hleft{
+	width: 250px;
+	height: 51px;
+	float: left;
+	background-color: lightskyblue;
+	text-align: center;
+	color: white;
+	font-size: 33px;
+	padding: 14px 0 0 0;
+	font-family: "隶书";
+}
+#hright{
+	width: 750px;
+	height: 65px;
+	float: left;
+	background-color: lightskyblue;
+}
+  #main{
+	width: 1000px;
+	height:100%;
+	border-top:1px solid white ;
+	
+   }
+   #mleft{
+   	width: 250px;
+   height:100%;
+   	float: left;
+   	background-color: darkslategray;
+   }
+   #mright{
+   	width: 750px;
+   	height:100%;
+   	background-color: white;
+   	float: left;
+   }
+   #mlist{
+   	width: 250px;
+   	height: 500px;
+   	margin: auto;
+   }
+  #mlist ul{
+  	list-style: none;
+  	
+  }
+  #mlist li {
+  	height: 50px;
+  	width: 250px;
+  	font-size: 20px;
+  	padding: 20px 0 0 0;
+  	text-align: center;
+  	
+  }
+  #mlist li a{
+  	color: white;
+  	text-decoration: none;
+  }
+  #mlist a:hover ,#mlist li:hover{
+  	color: white;
+  	background-color: gray;
+  	  }

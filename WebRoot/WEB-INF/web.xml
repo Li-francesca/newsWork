@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>NewsWeb</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsServlet</servlet-name>
+    <servlet-class>controller.NewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewsServlet</servlet-name>
+    <url-pattern>/servlet/NewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ContentServlet</servlet-name>
+    <servlet-class>controller.ContentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContentServlet</servlet-name>
+    <url-pattern>/servlet/ContentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddServlet</servlet-name>
+    <servlet-class>controller.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddServlet</servlet-name>
+    <url-pattern>/servlet/AddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelServlet</servlet-name>
+    <servlet-class>controller.DelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DelServlet</servlet-name>
+    <url-pattern>/servlet/DelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>controller.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/servlet/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryServlet</servlet-name>
+    <servlet-class>controller.QueryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QueryServlet</servlet-name>
+    <url-pattern>/servlet/QueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TypeServlet</servlet-name>
+    <servlet-class>controller.TypeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TypeServlet</servlet-name>
+    <url-pattern>/servlet/TypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ContentQServlet</servlet-name>
+    <servlet-class>controller.ContentQServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContentQServlet</servlet-name>
+    <url-pattern>/servlet/ContentQServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuitServlet</servlet-name>
+    <servlet-class>controller.QuitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload</servlet-name>
+    <servlet-class>smartupload.Upload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>controller.FirstServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SessionFilter</servlet-name>
+    <servlet-class>controller.SessionFilter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MianServlet</servlet-name>
+    <servlet-class>controller.MianServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteType</servlet-name>
+    <servlet-class>controller.DeleteType</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTypeServlet</servlet-name>
+    <servlet-class>controller.AddTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>controller.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ActionServlet</servlet-name>
+    <servlet-class>controller.ActionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <servlet-class>controller.CheckCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QuitServlet</servlet-name>
+    <url-pattern>/servlet/QuitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload</servlet-name>
+    <url-pattern>/servlet/Upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>/servlet/FirstServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SessionFilter</servlet-name>
+    <url-pattern>/servlet/SessionFilter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MianServlet</servlet-name>
+    <url-pattern>/servlet/MianServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteType</servlet-name>
+    <url-pattern>/servlet/DeleteType</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTypeServlet</servlet-name>
+    <url-pattern>/servlet/AddTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ActionServlet</servlet-name>
+    <url-pattern>/servlet/ActionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <url-pattern>/servlet/CheckCodeServlet</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>SessionFilter</filter-name>
+    <filter-class>controller.SessionFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>SessionFilter</filter-name>
+    <url-pattern>/manage.jsp</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>SessionFilter</filter-name>
+    <url-pattern>/getnews.jsp</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>SessionFilter</filter-name>
+    <url-pattern>/articleAdd.jsp</url-pattern>
+  </filter-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

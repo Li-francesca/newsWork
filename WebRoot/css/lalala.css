@@ -1,0 +1,74 @@
+	.linear{
+			width:100%; 
+			height:100%; 
+			
+			FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#b8c4cb,endColorStr=red); /*IE 6 7 8*/ 
+		 	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#FFEEDD), to(#FF9224));渐变色  
+}
+	.div1{
+		margin:100px auto;
+        width: 70%;  
+        
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#FFFFFF), to(#FFFAF4));/*渐变色*/ 
+	}
+
+	 a:link{
+	 	color: darkslategray;
+	 	
+	 }	
+	a:visited{
+	 	text-decoration: none;
+	 	color: darkslategray
+	 	
+	 }	
+	 /*表单*/
+	.style{
+		margin: 0px 100px;
+		font-family: "宋体";
+		font-size: 25px;	
+		height: 20px;
+		color:#BEBEBE;
+		}
+
+/*登录、取消俩按钮*/
+	 .button{	
+	margin: 0px 15px;
+	color:#FF9224;
+/* background-color: #FFEEDD; */
+text-shadow:1px 1px1px #FF9224;
+border-radius: 3px;
+		} 
+ 
+		#header{
+			width: 1200px;
+			height: 60px;
+			background-color: #B0E0E6;
+			margin: auto;
+			text-align: center;
+			font-family:"隶书" ;
+			font-size: 45px;
+			padding-top: 10px;
+			letter-spacing: 4px;
+		}
+		
+		#list{
+			width: 1200px;
+			height: auto;
+			
+			margin: auto;
+			text-align: center;
+			font-size: 18px;
+			font-family: "微软雅黑";
+		 background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#B0E0E6), to(#f6f6f8));/*渐变色*/ 
+			
+			
+		}
+		#list{
+			width: 1200px;
+			height: auto;
+			
+			margin: auto;
+			text-align: center;
+			font-size: 18px;
+			font-family: "微软雅黑";
+		 background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#B0E0E6), to(#f6f6f8));/*渐变色*/ 

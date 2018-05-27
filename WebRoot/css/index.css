@@ -1,0 +1,71 @@
+/* ::::: http://soft.nenu.edu.cn/dfiles/15724/facetype/manager/css/imgturns.css ::::: */
+
+/* ::::: http://soft.nenu.edu.cn/_sitegray/_sitegray.css ::::: */
+
+/* ::::: http://soft.nenu.edu.cn/list.vsb.css ::::: */
+
+.defaultButtonStyle { vertical-align: top; }
+.defaultInputStyle { vertical-align: top; border: 1px solid rgb(175, 213, 245); height: 17px; }
+/* ::::: http://soft.nenu.edu.cn/dfiles/15724/uploadfiles/template/rjxy/css/base.css ::::: */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0px; padding: 0px; }
+table { border-collapse: collapse; border-spacing: 0px; }
+fieldset, img { border: 0px none; }
+ol, ul { list-style: outside none none; padding: 0px; margin: 0px; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+q::before, q::after { content: ""; }
+img { vertical-align: top; border: 0px none; }
+body { font-size: 12px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; text-align: left; }
+html { text-align: center; }
+a, area {  }
+:focus { outline-style: none; }
+.clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+/* ::::: http://soft.nenu.edu.cn/dfiles/15724/uploadfiles/template/rjxy/css/list.css ::::: */
+
+body { background: transparent url('../images/top_bg.gif') repeat-x scroll 0% 0%; }
+a { color: rgb(0, 0, 0); text-decoration: none; }
+a:hover { color: rgb(164, 0, 0); text-decoration: none; }
+.top_bg { width: 970px; height: 71px; background: transparent url('../images/top_bg1.jpg') no-repeat scroll 0% 0%; margin: 0px auto; }
+.search { float: right; width: 189px; height: 30px; margin-top: 22px; }
+.search_input { width: 141px; height: 30px; background: transparent url('../images/search_input.jpg') no-repeat scroll 0% 0%; border: 0px none; font-size: 12px; line-height: 30px; color: rgb(139, 138, 138); float: left; padding: 0px 3px; }
+.search_button { width: 42px; height: 30px; background: transparent url('../images/search_button.jpg') no-repeat scroll 0% 0%; float: left; border: medium none; }
+.list_nav { width: 970px; height: 35px; background: transparent url('../images/nav_bg.jpg') repeat-x scroll 0% 0%; margin: 0px auto; }
+.list_sy { width: 47px; height: 35px; float: left; }
+.list_nav ul { width: 920px; float: left; }
+.list_nav ul li { width: 60px; float: left; line-height: 35px; font-size: 14px; color: rgb(255, 255, 255); margin-left: 5px; padding-left: 5px; padding-right: 5px; text-align: center; }
+.list_nav ul li a { font-size: 14px; color: rgb(255, 255, 255); text-decoration: none; }
+.list_nav ul li a:hover { font-size: 14px; color: rgb(255, 255, 255); text-decoration: none; }
+.list_nav ul li:hover { background-color: rgb(33, 145, 214); }
+.list_banner { width: 970px; height: 174px; margin: 0px auto; background: transparent url('../images/list_banner.jpg') no-repeat scroll 0% 0%; }
+.list_warp { width: 970px; margin: 0px auto; min-height: 490px; }
+.list_left { width: 226px; float: left; }
+.list_left h1 { background: transparent url('../images/left_h1.gif') no-repeat scroll center bottom; height: 43px; font-size: 18px; font-family: "微软雅黑"; line-height: 43px; color: rgb(8, 78, 148); text-indent: 15px; }
+.list_right { width: 730px; float: right; line-height: 26px; }
+.list_top { width: 722px; background: transparent url('../images/nr_bg.gif') no-repeat scroll center bottom; height: 45px; margin-bottom: 20px; }
+.list_img { float: left; width: 13px; height: 36px; background: transparent url('../images/h1_bg.gif') no-repeat scroll 0% 0%; }
+.list_img_h1 { width: 350px; font-size: 18px; color: rgb(8, 78, 148); font-weight: bold; float: left; height: 38px; text-align: left; line-height: 42px; text-indent: 10px; }
+.list_seat { width: 320px; float: right; height: 36px; line-height: 36px; text-align: right; }
+.copyright { height: 56px; background: transparent url('../images/copyright.gif') repeat-x scroll 0% 0%; width: 970px; margin: 0px auto; }
+.copyright_box { width: 950px; margin: 10px auto; height: 35px; padding-left: 10px; }
+.copyright_01 { width: 219px; height: 35px; float: left; background: transparent url('../images/copyright_012.gif') no-repeat scroll 0% 0%; }
+.copyright_02 { width: 605px; height: 35px; line-height: 35px; float: left; text-align: center; }
+.copyright_03 { width: 110px; float: right; line-height: 35px; height: 35px; }
+.nei { width: 730px; }
+.nei_1 li { background: transparent url('../images/ico_02.gif') no-repeat scroll 10px 7px; text-indent: 30px; height: 25px; border-bottom: 1px dashed rgb(205, 205, 205); line-height: 26px; position: relative; }
+.nei_1 li a:hover { color: rgb(25, 88, 152); }
+.nei_1 li span { position: absolute; right: 10px; }
+ul#menu, ul#menu ul { list-style-type: none; margin: 0px auto; padding: 0px; width: 192px; text-align: left; text-indent: 30px; }
+ul#menu a { display: block; text-decoration: none; background: transparent url('../images/ico_02.gif') no-repeat scroll 25px 11px; }
+ul#menu li { margin-top: 0px; border-bottom: 1px dashed rgb(221, 221, 221); }
+ul#menu li a { color: rgb(97, 96, 94); height: 33px; line-height: 33px; font-weight: bold; background: transparent url('../images/ico_02.gif') no-repeat scroll 15px 12px; font-size: 14px; }
+ul#menu li a:hover, ul#menu li #on { background: transparent url('../images/ico_02.gif') no-repeat scroll 15px 10px; color: rgb(97, 169, 7); }
+.left_banner { text-align: center; padding-top: 20px; }
+.headStyle3kav3vllkx, .headStyle3kav3vllkx td, .headStyle3kav3vllkx div { font-size: 12px; font-family: 宋体; color: rgb(0, 0, 0); margin-left: auto; margin-right: auto; line-height: 14px; }
+.defaultButtonStyle { font-size: 12px; font-family: 宋体; height: 20px; color: rgb(0, 0, 0); border: 1px solid rgb(175, 213, 245); margin: 0px; padding: 0px; cursor: pointer; line-height: 14px; background: transparent -moz-linear-gradient(center top , rgb(255, 255, 255), rgb(189, 219, 247)) repeat scroll 0% 0%; }
+.headStyle3kav3vllkx a, .pageList .this-page { font-size: 12px; font-family: 宋体; display: inline-block; height: 14px; padding: 2px 4px; border: 1px solid rgb(175, 213, 245); background: rgb(255, 255, 255) none repeat scroll 0% 0%; text-decoration: none; margin-right: 1px; line-height: 14px; }
+.headStyle3kav3vllkx a:visited { font-size: 12px; font-family: 宋体; color: rgb(0, 0, 0); text-decoration: none; line-height: 14px; }
+.headStyle3kav3vllkx .PrevDisabled { font-size: 12px; font-family: 宋体; display: inline-block; height: 14px; margin-right: 3px; padding: 2px 4px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(204, 204, 204); border: 1px solid rgb(175, 213, 245); line-height: 14px; }
+.headStyle3kav3vllkx .Next { font-size: 12px; font-family: 宋体; margin-left: 2px; padding: 2px 4px; line-height: 14px; }
+.headStyle3kav3vllkx a:hover { font-size: 12px; font-family: 宋体; color: black; background: rgb(239, 247, 254) none repeat scroll 0% 0%; border-color: rgb(175, 213, 245); text-decoration: none; line-height: 14px; }
+.headStyle3kav3vllkx a:link { font-size: 12px; font-family: 宋体; color: rgb(0, 0, 0); text-decoration: none; line-height: 14px; }
+.headStyle3kav3vllkx a:active { font-size: 12px; font-family: 宋体; color: black; text-decoration: none; background: rgb(239, 247, 254) none repeat scroll 0% 0%; line-height: 14px; }
